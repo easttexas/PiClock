@@ -2,28 +2,28 @@
 
 This version of the instructions is for setting up just the clock
 itself, ignoring all the other options.   It also assumes you have
-some OS already setup.   So this is useful for setting up the
+some OS already set up.   So this is useful for setting up the
 clock on a desktop OS.
 
 # Prerequisites
 
-The minium requirements for a PiClock is pretty simple
+The minimum requirements for a PiClock is pretty simple
 * Python 2.7+ (but not 3)
 * Python Qt4, known as PyQt4
 * git (as an alternative to git, you can pull the zip file from git hub
-(download button on the right side of the github project) then unzip it
+(download button on the right side of the GitHub project) then unzip it
 onto your system )
 
-Theses are available under Windows, Linux, and OSX OS's.
+These are available under Windows, Linux, and OSX OS's.
 
 How to get these installed on your choice of system I'll leave
-as an excersise for the reader.
+as an exercise for the reader.
 
 ### Get the PiClock software
 ```
 git clone https://github.com/n0bel/PiClock.git
 ```
-Alternatively, you can download a zip file of the github project.
+Alternatively, you can download a zip file of the GitHub project.
 
 https://github.com/n0bel/PiClock/archive/master.zip, then unzip it.
 
@@ -31,8 +31,8 @@ https://github.com/n0bel/PiClock/archive/master.zip, then unzip it.
 ### Configure the PiClock api keys
 
 The first is to set API keys for DarkSky and Google Maps.
-These are both free, unless you have large volume.
-The PiClock usage is well below the maximums imposed by the no cost api keys.
+These are both free unless you have a large volume.
+The PiClock usage is well below the maximums imposed by the no-cost api keys.
 
 #### DarkSky api keys
 
@@ -51,7 +51,7 @@ The credit card should not be charged, because my reading of https://cloud.googl
 apply, and your charges incurred will be for 31 map pulls per month will be
 $0.62 , if you reboot daily.
 You'll be required to create a "project" (maybe PiClock for a project name?)
-You need to then activate the key.
+You need to activate the key then.
 
 _Protect your API keys._  You'd be surprised how many pastebin's are out
 there with valid API keys, because of people not being careful.   If you post
@@ -81,7 +81,7 @@ googleapi = 'YOUR GOOGLE API KEY'
 ```
 
 ### Configure your PiClock
-here's were you tell PiClock where your weather should come from, and the
+here's where you tell PiClock where your weather should come from, and the
 radar map centers and markers.
 
 ```
